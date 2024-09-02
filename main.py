@@ -2,6 +2,7 @@ from file_engine import FileEngine
 from datetime import datetime
 
 infile = 'input/input_ebay_items.csv'
+# infile = 'input/input_ebay_items_excerpt.csv' # testing
 
 
 def create_outfile_name(date: str) -> str:
